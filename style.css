@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #151515;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #FF00FF;
+    text-shadow: 0 0 10px #FF00FF;
+}
+
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-text h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    color: #FF00FF;
+    text-shadow: 0 0 15px #FF00FF;
+}
+
+.tagline {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.play-button {
+    background-color: #FF00FF;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FF00FF;
+}
+
+.play-button:hover {
+    background-color: #FF007F;
+    box-shadow: 0 0 15px #FF007F;
+}
+
+.features-section {
+    padding: 50px;
+    background-color: #1b1b1b;
+}
+
+.section-title {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #00FFFF;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+.feature-description h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: #FF00FF;
+    font-size: 24px;
+}
+
+.feature-description p {
+    font-size: 18px;
+}
+
+.about-section {
+    background-color: #121212;
+    padding: 50px;
+    color: white;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-links {
+    text-align: center;
+}
+
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: #FF00FF;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF;
+}
+
+.github-repo {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00FFFF;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #151515;
+    color: #fff;
+    font-size: 14px;
+}
